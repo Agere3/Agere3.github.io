@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Desktop\\powershell"
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\exemplesPowerShell"
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\MIRAM"
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\Proyecto"
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\album"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MIRAM"
+	}
+}
