@@ -1,0 +1,24 @@
+body{
+    background-image: url("../images/mainPage/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        background-image: url(../images/mainPage/lg_fondo.jpg);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url(../images/mainPage/md_fondo.jpg);
+    }
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        background-image: url(../images/mainPage/xs_fondo.jpg);
+    }
+}
