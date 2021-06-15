@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+
+            <form action="https://formsubmit.co/ericruerc@outlook.es" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="nombreCompleto">Nombre completo</label>
+                    <input type="text" id="nombreCompleto" name="nombreCompleto">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                </div>
+                <button type="enviar">Enviar</button>
+            </form>
+
+        </div>
+        <div id="status"></div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
